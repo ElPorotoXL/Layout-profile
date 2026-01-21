@@ -22,17 +22,17 @@ body{
     height: 100vh;
 }
 .intro__pfp{
-    width: 29%;
+    width: 300px;
     margin-top: 20px;
     border-radius: 50%;
     border: 8px solid #aaa;
 }
 h1{
-    font-size: 70px;
+    font-size: 55px;
     margin: 6px;
 }
 .intro__desc{
-    font-size: 28px;
+    font-size: 20px;
     width: 350px;
     text-wrap: pretty;
     text-align: center;
