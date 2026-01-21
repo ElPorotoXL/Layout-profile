@@ -21,16 +21,18 @@ body{
     height: 100vh;
 }
 .intro__pfp{
-    width: 320px;
+    width: 20%;
     margin-top: 20px;
     border-radius: 50%;
     border: 8px solid #aaa;
 }
 h1{
-    font-size: 50px
+    font-size: 50px;
+    margin: 8px;
 }
 .intro__desc{
     font-size: 20px;
-    width: 400px;
+    width: 350px;
+    text-wrap: pretty;
     text-align: center;
 }
