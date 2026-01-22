@@ -23,7 +23,7 @@ body{
 }
 .intro__pfp{
     width: 300px;
-    margin-top: 20px;
+    margin-top: 80px;
     border-radius: 50%;
     border: 8px solid #aaa;
 }
@@ -33,7 +33,7 @@ h1{
 }
 .intro__desc{
     font-size: 20px;
-    width: 350px;
+    width: 380px;
     text-wrap: pretty;
     text-align: center;
     margin-top: 5px;
@@ -47,21 +47,23 @@ h1{
 
 .main__nav{
     background-color: #222;
-    padding: 8px;
+    padding: 6px;
     position: sticky;
     top: 0;
 }
 .nav__list{
+    width: 90%;
+    margin: auto;
     display: flex;
     flex-flow: row nowrap;
     list-style: none;
     justify-content: center;
     align-items: center;
-    gap: 2%;
+    gap: 1%;
 }
 .list__item{
     width: 120px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 700;
     padding: 10px;
     text-align: center;
@@ -78,8 +80,8 @@ h1{
     color: #e2e2e2;
 }
 .link--sign{
-    width: 160px;
-    font-size: 25px;
+    width: 120px;
+    font-size: 17px;
     background-color: #ccc;
     color: #000;
     border-radius: 50px;
@@ -89,7 +91,7 @@ h1{
 }
 /* DESCRIPCIÓN */
 .nav__text{
-    width: 70vw;
+    width: 80vw;
     margin: auto;
     margin-top: 20px;
     font-size: 20px;
